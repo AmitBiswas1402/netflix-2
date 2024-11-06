@@ -25,7 +25,7 @@ function page() {
             variant="destructive"
             className="w-full bg-[#e50914] mb-2"
           >
-            Sign Up
+            Log In
           </Button>
         </div>
       </form>
