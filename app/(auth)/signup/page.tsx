@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { FaGithub } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
 import GoogleIcon from "../../../public/google.svg";
@@ -43,9 +42,6 @@ function page() {
         </Button>
         <Button variant="outline" size="icon">
           <Image src={GoogleIcon} alt="Google icon" className="w-6 h-6" />
-        </Button>
-        <Button variant="outline" size="icon">
-          <FaXTwitter />
         </Button>
       </div>
     </div>
